@@ -191,7 +191,6 @@ hr {
 <body>
 <h1>run_analysis</h1>
 
-<p>Last updated 2014-04-17 09:04:14 using R version 3.0.2 (2013-09-25).</p>
 
 <h2>Instructions for project</h2>
 
@@ -244,7 +243,7 @@ path
 
 <h2>Get the data</h2>
 
-<p>Download the file. Put it in the <code>Data</code> folder. <strong>This was already done on 2014-04-11; save time and don&#39;t evaluate again.</strong></p>
+<p>Download the file. Put it in the <code>Data</code> folder. 
 
 <pre><code class="r">url &lt;- &quot;https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip&quot;
 f &lt;- &quot;Dataset.zip&quot;
@@ -254,7 +253,7 @@ if (!file.exists(path)) {
 download.file(url, file.path(path, f))
 </code></pre>
 
-<p>Unzip the file. <strong>This was already done on 2014-04-11; save time and don&#39;t evaluate again.</strong></p>
+<p>Unzip the file. </p>
 
 <pre><code class="r">executable &lt;- file.path(&quot;C:&quot;, &quot;Program Files (x86)&quot;, &quot;7-Zip&quot;, &quot;7z.exe&quot;)
 parameters &lt;- &quot;x&quot;
@@ -299,7 +298,7 @@ list.files(pathIn, recursive = TRUE)
 ## [28] &quot;train/y_train.txt&quot;
 </code></pre>
 
-<p><strong>See the <code>README.txt</code> file in C:/Users/chanb/Documents/Repositories/Coursera/GettingAndCleaningData/Project for detailed information on the dataset.</strong></p>
+<p><strong>See the <code>README.txt</code>
 
 <p>For the purposes of this project, the files in the <code>Inertial Signals</code> folders are not used.</p>
 

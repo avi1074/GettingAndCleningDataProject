@@ -1,6 +1,5 @@
 run_analysis
-============
-Last updated 2014-04-17 09:04:14 using R version 3.0.2 (2013-09-25).
+
 
 
 Instructions for project
@@ -63,7 +62,7 @@ path
 Get the data
 ------------
 
-Download the file. Put it in the `Data` folder. **This was already done on 2014-04-11; save time and don't evaluate again.**
+Download the file. Put it in the `Data` folder. 
 
 
 ```r
@@ -76,7 +75,7 @@ download.file(url, file.path(path, f))
 ```
 
 
-Unzip the file. **This was already done on 2014-04-11; save time and don't evaluate again.**
+Unzip the file. 
 
 
 ```r
@@ -88,7 +87,6 @@ system(cmd)
 ```
 
 
-The archive put the files in a folder named `UCI HAR Dataset`. Set this folder as the input path. List the files here.
 
 
 ```r
@@ -128,7 +126,7 @@ list.files(pathIn, recursive = TRUE)
 ```
 
 
-**See the `README.txt` file in C:/Users/chanb/Documents/Repositories/Coursera/GettingAndCleaningData/Project for detailed information on the dataset.**
+
 
 For the purposes of this project, the files in the `Inertial Signals` folders are not used.
 
